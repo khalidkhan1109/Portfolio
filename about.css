@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.image{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    float: right;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 150px;
+}
+.image img{
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    float: calc(center);
+    margin-right: 200px;
+    margin: 50px;
+    margin-top: 60px;
+}
+body{
+    background-image: url("about.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-size: larger;
+  font-style: italic;
+  margin-left: 20px;
+}
+pre{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: larger;
+    font-style: italic;
+    margin: 25px;
+}
+ul{
+    color: rgb(253, 253, 253);
+    font-size: larger;
+    font-style: italic;
+    margin: 25px;
+}
